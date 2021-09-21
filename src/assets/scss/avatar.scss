@@ -1,0 +1,28 @@
+.avatar-page {
+  padding-top: 25px;
+  h1 {
+    font-size: 44px;
+    margin-bottom: 19px;
+  }
+  .underline {
+    width: 248px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 34px;
+  }
+  video {
+    height: 420px;
+  }
+  button {
+    width: 400px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-top: 30px;
+    &:hover {
+      background-color: black;
+    }
+  }
+}

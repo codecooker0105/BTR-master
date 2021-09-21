@@ -1,0 +1,101 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html, body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #181818;
+
+  a, a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .v-c {
+    display: flex;
+    align-items: center;
+  }
+
+  .h-c {
+    display: flex;
+    justify-content: center;
+	}
+
+	.v-r {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.app {
+		height: 100vh;
+	}
+
+  .shadow-object {
+    box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+  }
+
+  p, a {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #181818;
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .show-web {
+    display: block;
+  }
+
+  .show-web-flex {
+    display: flex;
+  }
+
+  .show-mobile, .show-mobile-flex {
+    display: none !important;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1B1F25;
+    border-radius: 40px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #BDBDBD;
+  }
+}
+
+@media screen and (max-width: 991px) {
+	.show-mobile {
+    display: block;
+	}
+
+	.show-web, .show-web-flex {
+    display: none !important;
+	}
+
+	.show-mobile-flex {
+    display: flex;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}

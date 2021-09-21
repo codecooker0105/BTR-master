@@ -1,0 +1,82 @@
+.runway-page {
+  padding-top: 25px;
+  .container {
+    display: flex;
+    padding: 0 50px;
+    .display-area {
+      width: 70%;
+      .front-video {
+        width: 100%;
+      }
+      .runway-video {
+        width: 100%;
+      }
+    }
+    .info-area {
+      padding-left: 50px;
+      flex: 1;
+      h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+      .description {
+        font-size: 18px;
+        color: #7B7B7B;
+        margin-bottom: 30px;
+      }
+      h2 {
+        font-size: 15px;
+      }
+      h3 {
+        margin-top: 50px;
+        font-size: 18px;
+      }
+      .size-container {
+        margin-right: 10px;
+        cursor: pointer;
+        padding: 10px;
+        &.active {
+          background: #EBEBEB;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
+        .size-box {
+          text-align: center;
+          margin-right: 5px;
+          &:last-child {
+            margin-right: 0;
+          }
+          h4 {
+            font-size: 15px;
+            margin-bottom: 0;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+      .btn-area {
+        margin-top: 30px;
+        button {
+          width: 350px;
+          height: 60px;
+          background-color: #7B7B7B;
+          color: white;
+          font-size: 16px;
+          border-radius: 30px;
+          margin-bottom: 20px;
+          &:hover {
+            background-color: #7B7B7B;
+          }
+          &:last-child {
+            margin-bottom: 0;
+            background: white;
+            color: #7B7B7B;
+            border: 2px solid #7B7B7B;
+          }
+        }
+      }
+    }
+  }
+}
